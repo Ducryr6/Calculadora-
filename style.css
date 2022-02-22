@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2? family= Lagosta & display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+
+    background-color: rgb(70, 140, 158);
+
+}
+
+.titulo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+
+}
+
+.calculadora{
+
+    display: block;
+    margin: 0 570px;
+    background-color: rgba(0, 0, 0, 0.589);
+    font-family: font-family: 'Lobster', cursiva;
+    border-radius: 5px;
+    
+}
+
+button{
+
+    background-color: aqua;   
+    height: 50px; 
+    width: 50px; 
+    cursor: pointer;
+    border: none;
+    margin: 2px
+       
+}
+
+button:hover{
+
+    background-color: aquamarine;
+    
+
+}
+
+.resultado{
+    
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(70, 140, 158);
+    height: 40px;
+    width: 225px;
+    color: white;
+    border-radius: 3px;
+    text-align: right;
+    font-size: 30px;
+    
+
+}
